@@ -10,5 +10,4 @@ inputs:
 - name: code
 
 run:
-  path: ls
-  args: ['-alR']
+  path: code/sample-scripts/test
