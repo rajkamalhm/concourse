@@ -6,6 +6,9 @@ image_resource:
   source:
     repository: centos
 
+inputs:
+- name: concourse
+
 run:
   path: ls
   args: ['-al']
