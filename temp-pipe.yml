@@ -11,4 +11,4 @@ inputs:
 
 run:
   path: bash
-  args: sample-scripts/test
+  args: ["sample-scripts/test"]
