@@ -6,9 +6,6 @@ image_resource:
   source:
     repository: centos
 
-inputs:
-- name: sample-scripts
-
 run:
-  path: bash
-  args: ["sample-scripts/test"]
+  path: ls
+  args: ['-al']
