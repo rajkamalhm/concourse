@@ -11,4 +11,4 @@ inputs:
 
 run:
   path: ls
-  args: ['-al']
+  args: ['-alR']
